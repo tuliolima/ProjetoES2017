@@ -46,6 +46,10 @@ html, body {
   margin-top: 24px; 
 }
 
+.green {
+  color: green;
+}
+
 .mdl-demo .center-section {
   max-width: 800px;
   margin: auto;
@@ -53,6 +57,7 @@ html, body {
 
 .mdl-demo .center-section .pesquisa-satisfacao {
   padding: 20px;
+  background-color: #FFFFFF;
 }
 
 .mdl-demo .eduardo-image {
@@ -72,6 +77,7 @@ html, body {
 
 .mdl-demo .developers-info {
   padding-top: 10px;
+  background-color: #FFFFFF;
 }
 
 .mdl-demo .developers-info .title {
@@ -82,6 +88,31 @@ html, body {
 }
 
 .mdl-demo .developers-info .developer .name {
+  text-align: center;
+}
+
+.mdl-demo .refeicao {
+  border: 3px solid green;
+}
+
+.mdl-demo .evento1 {
+  height: 200px;
+  background: url(../images/orquestra.jpg) center/cover;
+}
+
+.mdl-demo .evento2 {
+  height: 200px;
+  background: url(../images/samba.jpg) center/cover;
+}
+
+.mdl-demo .evento3 {
+  height: 200px;
+  background: url(../images/rock.jpg) center/cover;
+}
+
+.versus {
+  color: red;
+  padding: 70px 0;
   text-align: center;
 }
 
@@ -147,8 +178,13 @@ html, body {
 .mdl-demo .mdl-card .mdl-card__title {
   color: #fff;
   height: 200px;
-  background: url('../images/prato1.jpg') center / cover;
+  background: url('../images/linguica.jpg') center / cover;
 }
+
+#vegetariano {
+  background: url('../images/lentilha.jpg') center / cover;
+}
+
 .mdl-demo .mdl-card .mdl-card__supporting-text {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
